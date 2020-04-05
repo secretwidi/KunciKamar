@@ -1,0 +1,39 @@
+<!-- Selamat datang di KunciKamar -->
+<TextView
+android:id="@+id/selamat_dat"
+android:layout_width="287dp"
+android:layout_height="22dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="191dp"
+android:text="@string/selamat_dat"
+android:textAppearance="@style/selamat_dat"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 22sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="selamat_dat">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="selamat_dat">
+
+Selamat datang di KunciKamar
+</string>
+

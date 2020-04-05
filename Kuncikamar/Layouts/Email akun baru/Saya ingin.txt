@@ -1,0 +1,39 @@
+<!-- ALAMAT EMAIL -->
+<TextView
+android:id="@+id/alamat_emai"
+android:layout_width="94dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="139dp"
+android:text="@string/alamat_emai"
+android:textAppearance="@style/alamat_emai"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="alamat_emai">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="alamat_emai">
+
+ALAMAT EMAIL
+</string>
+

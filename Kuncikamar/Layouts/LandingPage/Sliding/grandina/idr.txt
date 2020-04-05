@@ -1,0 +1,38 @@
+<!-- Idr 90k/malam -->
+<TextView
+android:id="@+id/idr_90k_mal"
+android:layout_width="45dp"
+android:layout_height="7dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="494dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="221dp"
+android:text="@string/idr_90k_mal"
+android:textAppearance="@style/idr_90k_mal"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 7sp
+-->
+<!-- styles.xml -->
+<style name="idr_90k_mal">
+
+<item name="android:textSize">
+6sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="idr_90k_mal">
+
+Idr 90k/malam
+</string>
+

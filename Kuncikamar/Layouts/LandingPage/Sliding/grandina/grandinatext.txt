@@ -1,0 +1,38 @@
+<!-- Grand Inna - Kuta -->
+<TextView
+android:id="@+id/grand_inna_"
+android:layout_width="74dp"
+android:layout_height="10dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="494dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="210dp"
+android:text="@string/grand_inna_"
+android:textAppearance="@style/grand_inna_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="grand_inna_">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="grand_inna_">
+
+Grand Inna - Kuta
+</string>

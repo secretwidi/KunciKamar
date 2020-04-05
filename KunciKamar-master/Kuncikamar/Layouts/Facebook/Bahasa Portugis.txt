@@ -1,0 +1,38 @@
+<TextView
+android:id="@+id/portugu_s_b"
+android:layout_width="83dp"
+android:layout_height="11dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="58dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="471dp"
+android:text="@string/portugu_s_b"
+android:textAppearance="@style/portugu_s_b"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 11sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="portugu_s_b">
+
+<item name="android:textSize">
+9sp
+</item>
+
+<item name="android:textColor">
+#828181
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="portugu_s_b">
+
+Portugu\u00C3\u00AAs (Brazil)
+</string>
+

@@ -1,0 +1,42 @@
+<!-- TAMPILKAN SEMUA FASILITAS -->
+<TextView
+android:id="@+id/tampilkan_s"
+android:layout_width="186dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="87dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1121dp"
+android:text="@string/tampilkan_s"
+android:textAppearance="@style/tampilkan_s"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="tampilkan_s">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#B3DA61
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tampilkan_s">
+
+TAMPILKAN SEMUA FASILITAS
+</string>
+

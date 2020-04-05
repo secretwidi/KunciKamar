@@ -1,0 +1,38 @@
+<!-- Hotel Terpopuler -->
+<TextView
+android:id="@+id/hotel_terpo"
+android:layout_width="124dp"
+android:layout_height="17dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="262dp"
+android:text="@string/hotel_terpo"
+android:textAppearance="@style/hotel_terpo"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="hotel_terpo">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="hotel_terpo">
+
+Hotel Terpopuler
+</string>

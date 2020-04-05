@@ -1,0 +1,41 @@
+<!-- Hotel -->
+<TextView
+android:id="@+id/hotel"
+android:layout_width="28dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="24dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="290dp"
+android:text="@string/hotel"
+android:textAppearance="@style/hotel"
+android:lineSpacingExtra="8sp"
+android:translationY="-3.9sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 3.9sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="hotel">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#BFE241
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="hotel">
+
+Hotel
+</string>

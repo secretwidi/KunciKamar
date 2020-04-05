@@ -1,0 +1,12 @@
+<!-- Rate -->
+<View
+android:id="@+id/rate"
+android:layout_width="43dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="564dp"
+android:background="@drawable/rate"
+ />
+

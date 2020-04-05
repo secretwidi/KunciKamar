@@ -1,0 +1,39 @@
+<!-- NAMA BELAKANG -->
+<TextView
+android:id="@+id/nama_belaka"
+android:layout_width="112dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="190dp"
+android:text="@string/nama_belaka"
+android:textAppearance="@style/nama_belaka"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="nama_belaka">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="nama_belaka">
+
+NAMA BELAKANG
+</string>
+

@@ -1,0 +1,37 @@
+<!-- Kata sandi Anda harus menyertakan setidaknya satu simbol dan terdiri atas 8 karakter atau lebih -->
+<TextView
+android:id="@+id/kata_sandi_"
+android:layout_width="296dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="107dp"
+android:text="@string/kata_sandi_"
+android:textAppearance="@style/kata_sandi_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="kata_sandi_">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="kata_sandi_">
+
+Kata sandi Anda harus menyertakan setidaknya \nsatu simbol dan terdiri atas 8 karakter atau lebih
+</string>

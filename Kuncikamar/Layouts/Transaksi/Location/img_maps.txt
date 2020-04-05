@@ -1,0 +1,33 @@
+<!-- maps -->
+<View
+android:id="@+id/maps"
+android:layout_width="324dp"
+android:layout_height="170dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1220dp"
+android:background="@drawable/maps"
+android:elevation="6dp"
+ />
+
+
+<!-- drawable/maps.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="324dp"
+android:height="170dp"
+android:viewportWidth="324"
+android:viewportHeight="170"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M5 0H319C321.761 0 324 2.23858 324 5V165C324 167.761 321.761 170 319 170H5C2.23858 170 0 167.761 0 165V5C0 2.23858 2.23858 0 5 0Z"
+/>
+
+</group>
+
+</vector>

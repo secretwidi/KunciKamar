@@ -1,0 +1,42 @@
+<!-- 56 m -->
+<TextView
+android:id="@+id/m"
+android:layout_width="25dp"
+android:layout_height="18dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="317dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1516dp"
+android:text="@string/m"
+android:textAppearance="@style/m"
+android:lineSpacingExtra="6sp"
+android:translationY="-2.9sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 18sp
+  (identical to box height)
+  translationY 2.9sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="m">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="m">
+
+56 m
+</string>
+

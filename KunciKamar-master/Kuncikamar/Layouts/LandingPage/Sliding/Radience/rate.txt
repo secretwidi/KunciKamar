@@ -1,0 +1,11 @@
+<!-- Group -->
+<View
+android:id="@+id/group"
+android:layout_width="43dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="228dp"
+android:background="@drawable/group"
+ />

@@ -1,0 +1,37 @@
+<!-- VILLA ORANGE - SEMINYAK Villa Orange kompak namun ditata sedemikian rupa untuk memaksimalkan ruang dan kenyamanannya Idr 160k/malam -->
+<TextView
+android:id="@+id/villa_orang"
+android:layout_width="324dp"
+android:layout_height="66dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="19dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1439dp"
+android:text="@string/villa_orang"
+android:textAppearance="@style/villa_orang"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 7sp
+-->
+<!-- styles.xml -->
+<style name="villa_orang">
+
+<item name="android:textSize">
+6sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="villa_orang">
+
+VILLA ORANGE - SEMINYAK\nVilla Orange kompak namun ditata sedemikian rupa \nuntuk memaksimalkan ruang dan kenyamanannya\nIdr 160k/malam
+</string>

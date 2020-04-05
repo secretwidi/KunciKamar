@@ -1,0 +1,38 @@
+<!-- Anda harus berusia 18 tahun keatas untuk dapat menggunakan KunciKamar -->
+<TextView
+android:id="@+id/anda_harus_"
+android:layout_width="296dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="107dp"
+android:text="@string/anda_harus_"
+android:textAppearance="@style/anda_harus_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+-->
+<!-- styles.xml -->
+<style name="anda_harus_">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="anda_harus_">
+
+Anda harus berusia 18 tahun keatas untuk dapat\nmenggunakan KunciKamar
+</string>
+

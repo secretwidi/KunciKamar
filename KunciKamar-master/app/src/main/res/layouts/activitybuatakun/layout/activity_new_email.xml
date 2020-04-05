@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_greeting_grdnt"
+        tools:context=".BuatSandiActivity">
+    <androidx.cardview.widget.CardView
+            android:id="@+id/welcome"
+            app:cardElevation="0dp"
+            android:onClick="back"
+            app:cardBackgroundColor="@color/White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <FrameLayout
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:tint="@color/colorPrimary"
+                    android:src="@drawable/ic_button_back"/>
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+            android:id="@+id/in"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/montserratbold"
+            android:textSize="24dp"
+            android:text="Email Anda?"
+            android:layout_margin="18dp"
+            android:layout_below="@id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/name1"
+            android:textColor="@color/colorPrimaryDarkest"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="ALAMAT EMAIL"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="32dp"
+            android:layout_below="@id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:inputType="textPassword"
+            android:id="@+id/pass"
+            android:layout_below="@id/name1"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/desc"
+            android:textColor="@color/colorPrimaryDarkest"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="Saya ingin menerima kpmunikasi promosi, termasuk diskon, survei, inspirasi, dan berita menarik dari KunciKamar via email, SMS, dan telepon."
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/desc2"
+            android:textColor="@color/colorPrimaryDarkest"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="Saya tidak ingin menerima berita pemasaran dari KunciKamar. Saya bisa memilih untuk tidak menerim pesan sejenis ini kapan saja melalui pengaturan akun saya atau menggunakan tautan didalam pesan."
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@id/desc"
+            android:layout_toLeftOf="@id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Switch
+            android:id="@+id/switch1"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/desc"
+            android:layout_width="44dp"
+            android:layout_height="14dp"/>
+
+    <ImageView
+            android:id="@+id/mainnext"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+</RelativeLayout>

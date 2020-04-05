@@ -1,0 +1,12 @@
+<!-- school -->
+<View
+android:id="@+id/school"
+android:layout_width="24dp"
+android:layout_height="24dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1522dp"
+android:background="@drawable/school"
+ />
+

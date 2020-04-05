@@ -1,0 +1,38 @@
+<!-- Tampilkan semua Luxe Class -->
+<TextView
+android:id="@+id/tampilkan_s"
+android:layout_width="151dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="105dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="874dp"
+android:text="@string/tampilkan_s"
+android:textAppearance="@style/tampilkan_s"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="tampilkan_s">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#AED911
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tampilkan_s">
+
+Tampilkan semua Luxe Class
+</string>
+

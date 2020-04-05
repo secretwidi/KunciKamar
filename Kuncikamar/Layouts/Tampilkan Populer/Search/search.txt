@@ -1,0 +1,11 @@
+<!-- Search -->
+<View
+android:id="@+id/search"
+android:layout_width="324dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="16dp"
+android:background="@drawable/search"
+ />

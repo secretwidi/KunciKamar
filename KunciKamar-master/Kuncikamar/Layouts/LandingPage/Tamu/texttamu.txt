@@ -1,0 +1,38 @@
+<!-- Tamu -->
+<TextView
+android:id="@+id/tamu"
+android:layout_width="24dp"
+android:layout_height="10dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="82dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="77dp"
+android:text="@string/tamu"
+android:textAppearance="@style/tamu"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="tamu">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#979696
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tamu">
+
+Tamu
+</string>

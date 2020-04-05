@@ -1,0 +1,38 @@
+<!-- Four Seasons Resort Bali • Asia's Leading Honeymoon Resort Idr 4200k/malam -->
+<TextView
+android:id="@+id/four_season"
+android:layout_width="173dp"
+android:layout_height="36dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="228dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="804dp"
+android:text="@string/four_season"
+android:textAppearance="@style/four_season"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+-->
+<!-- styles.xml -->
+<style name="four_season">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="four_season">
+
+\nFour Seasons Resort Bali \u00E2\u0080\u00A2 Asia\'s Leading Honeymoon Resort \nIdr 4200k/malam
+</string>
+

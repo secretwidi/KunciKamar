@@ -1,0 +1,31 @@
+<!-- Pattern -->
+<View
+android:id="@+id/pattern"
+android:layout_width="360dp"
+android:layout_height="640dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/pattern"
+ />
+
+
+<!-- drawable/pattern.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="360dp"
+android:height="640dp"
+android:viewportWidth="360"
+android:viewportHeight="640"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H360V640H0V0Z"
+/>
+
+</group>
+
+</vector>

@@ -1,0 +1,38 @@
+<!-- Buat Akun -->
+<TextView
+android:id="@+id/buat_akun"
+android:layout_width="76dp"
+android:layout_height="17dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="142dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="313dp"
+android:text="@string/buat_akun"
+android:textAppearance="@style/buat_akun"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="buat_akun">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#AED911
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="buat_akun">
+
+Buat Akun
+</string>

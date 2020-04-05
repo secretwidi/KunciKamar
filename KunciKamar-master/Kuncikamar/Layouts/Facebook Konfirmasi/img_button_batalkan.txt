@@ -1,0 +1,32 @@
+<!-- Rectangle 3.2 -->
+<View
+android:id="@+id/rectangle_3"
+android:layout_width="200dp"
+android:layout_height="35dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="80dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="334dp"
+android:background="@drawable/rectangle_3"
+ />
+
+
+<!-- drawable/rectangle_3.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="200dp"
+android:height="35dp"
+android:viewportWidth="200"
+android:viewportHeight="35"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M4 0H196C198.209 0 200 1.79086 200 4V31C200 33.2091 198.209 35 196 35H4C1.79086 35 0 33.2091 0 31V4C0 1.79086 1.79086 0 4 0Z"
+/>
+
+</group>
+
+</vector>

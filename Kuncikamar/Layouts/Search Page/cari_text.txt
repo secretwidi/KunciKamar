@@ -1,0 +1,39 @@
+<!-- CARI -->
+<TextView
+android:id="@+id/cari"
+android:layout_width="36dp"
+android:layout_height="17dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="163dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="565dp"
+android:text="@string/cari"
+android:textAppearance="@style/cari"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="cari">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="cari">
+
+CARI
+</string>
+

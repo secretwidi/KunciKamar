@@ -1,0 +1,42 @@
+<!-- Seminyak,Bali -->
+<TextView
+android:id="@+id/seminyak_ba"
+android:layout_width="58dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="28dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="311dp"
+android:text="@string/seminyak_ba"
+android:textAppearance="@style/seminyak_ba"
+android:lineSpacingExtra="10sp"
+android:translationY="-5.12sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 5.12sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="seminyak_ba">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#514F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="seminyak_ba">
+
+Seminyak,Bali
+</string>
+

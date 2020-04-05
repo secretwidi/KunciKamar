@@ -1,0 +1,38 @@
+<!-- Email Anda ? -->
+<TextView
+android:id="@+id/email_anda_"
+android:layout_width="165dp"
+android:layout_height="29dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="71dp"
+android:text="@string/email_anda_"
+android:textAppearance="@style/email_anda_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="email_anda_">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="email_anda_">
+
+Email Anda ?
+</string>
+

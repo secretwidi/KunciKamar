@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.ebri.kuncikamar"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res/layouts/activitymain',
+                    'src/main/res/layouts/activityfragmentmain',
+                    'src/main/res/layouts/activitygreeting',
+                    'src/main/res/layouts/activitylanding',
+                    'src/main/res/layouts/activitysearch',
+                    'src/main/res/layouts/activitylogin',
+                    'src/main/res/layouts/activityforget',
+                    'src/main/res/layouts/activitybuatakun',
+                    'src/main/res/layouts/activitytampilkanpop',
+                    'src/main/res/layouts/activityfacebook',
+                    'src/main/res/layouts/fragmentmain',
+                    'src/main/res/layouts/fragmentlandingcontent',
+                    'src/main/res/layouts/',
+                    'src/main/res/',
+            ]
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.0.0'
+}

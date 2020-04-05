@@ -1,0 +1,12 @@
+<!-- Grandina -->
+<View
+android:id="@+id/grandina"
+android:layout_width="144dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="492dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="154dp"
+android:background="@drawable/grandina"
+android:elevation="4dp"
+ />

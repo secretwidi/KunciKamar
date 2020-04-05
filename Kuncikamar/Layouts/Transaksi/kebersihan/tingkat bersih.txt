@@ -1,0 +1,41 @@
+<!-- Tingkat kebersihan -->
+<TextView
+android:id="@+id/tingkat_keb"
+android:layout_width="122dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="54dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="530dp"
+android:text="@string/tingkat_keb"
+android:textAppearance="@style/tingkat_keb"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="tingkat_keb">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tingkat_keb">
+
+Tingkat kebersihan
+</string>

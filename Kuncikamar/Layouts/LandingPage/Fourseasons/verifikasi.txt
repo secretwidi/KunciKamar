@@ -1,0 +1,38 @@
+<!-- TERVERIFIKASI • BALI -->
+<TextView
+android:id="@+id/terverifika"
+android:layout_width="68dp"
+android:layout_height="7dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="250dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="802dp"
+android:text="@string/terverifika"
+android:textAppearance="@style/terverifika"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 7sp
+-->
+<!-- styles.xml -->
+<style name="terverifika">
+
+<item name="android:textSize">
+6sp
+</item>
+
+<item name="android:textColor">
+#AED911
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="terverifika">
+
+TERVERIFIKASI \u00E2\u0080\u00A2 BALI
+</string>
+

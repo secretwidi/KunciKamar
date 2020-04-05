@@ -1,0 +1,38 @@
+<!-- .../ ... / .../ -->
+<TextView
+android:id="@+id/some_id"
+android:layout_width="74dp"
+android:layout_height="22dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="213dp"
+android:text="@string/some_id"
+android:textAppearance="@style/some_id"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 22sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="some_id">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#C3C3C3
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="some_id">
+
+.../ ... / .../
+</string>

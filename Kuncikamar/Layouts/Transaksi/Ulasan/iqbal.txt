@@ -1,0 +1,41 @@
+<!-- Iqbal Ramadhan April 2018 -->
+<TextView
+android:id="@+id/iqbal_ramad"
+android:layout_width="104dp"
+android:layout_height="37dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="88dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1951dp"
+android:text="@string/iqbal_ramad"
+android:textAppearance="@style/iqbal_ramad"
+android:lineSpacingExtra="3sp"
+android:translationY="-1.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 18sp
+  translationY 1.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="iqbal_ramad">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="iqbal_ramad">
+
+Iqbal Ramadhan\nApril 2018
+</string>
+

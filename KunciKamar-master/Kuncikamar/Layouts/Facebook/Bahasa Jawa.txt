@@ -1,0 +1,39 @@
+<!-- Bahasa Jawa -->
+<TextView
+android:id="@+id/bahasa_jawa"
+android:layout_width="60dp"
+android:layout_height="11dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="68dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="442dp"
+android:text="@string/bahasa_jawa"
+android:textAppearance="@style/bahasa_jawa"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 11sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="bahasa_jawa">
+
+<item name="android:textSize">
+9sp
+</item>
+
+<item name="android:textColor">
+#828181
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="bahasa_jawa">
+
+Bahasa Jawa
+</string>
+

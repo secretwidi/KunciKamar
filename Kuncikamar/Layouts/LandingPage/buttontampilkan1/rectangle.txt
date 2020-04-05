@@ -1,0 +1,38 @@
+<!-- Rectangle -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="324dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="594dp"
+android:background="@drawable/rectangle"
+ />
+
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="324dp"
+android:height="40dp"
+android:viewportWidth="324"
+android:viewportHeight="40"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H324V40H0V0Z"
+/>
+
+<path
+android:pathData="M0 0H324V40H0V0Z"
+android:strokeWidth="4"
+android:strokeColor="#89AD05"
+/>
+
+</group>
+
+</vector>

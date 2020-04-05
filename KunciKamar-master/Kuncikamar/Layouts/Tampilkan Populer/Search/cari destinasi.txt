@@ -1,0 +1,38 @@
+<!-- Cari kota destinasi -->
+<TextView
+android:id="@+id/cari_kota_d"
+android:layout_width="94dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="71dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="30dp"
+android:text="@string/cari_kota_d"
+android:textAppearance="@style/cari_kota_d"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="cari_kota_d">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#979696
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="cari_kota_d">
+
+Cari kota destinasi
+</string>
+

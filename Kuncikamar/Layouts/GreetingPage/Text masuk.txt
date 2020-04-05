@@ -1,0 +1,38 @@
+<!-- Masuk -->
+<TextView
+android:id="@+id/masuk"
+android:layout_width="35dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="309dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="20dp"
+android:text="@string/masuk"
+android:textAppearance="@style/masuk"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="masuk">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="masuk">
+
+Masuk
+</string>
+

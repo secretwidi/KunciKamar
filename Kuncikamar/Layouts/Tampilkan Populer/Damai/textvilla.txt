@@ -1,0 +1,38 @@
+<!-- VILLA DAMAI TAMAN - SEMINYAK Sempurna untuk tamu yang ingin merasakan gaya hidup Bali yang lebih tradisional Idr 263k/malam -->
+<TextView
+android:id="@+id/villa_damai"
+android:layout_width="315dp"
+android:layout_height="66dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="313dp"
+android:text="@string/villa_damai"
+android:textAppearance="@style/villa_damai"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 7sp
+-->
+<!-- styles.xml -->
+<style name="villa_damai">
+
+<item name="android:textSize">
+6sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="villa_damai">
+
+VILLA DAMAI TAMAN - SEMINYAK\nSempurna untuk tamu yang ingin merasakan gaya \nhidup Bali yang lebih tradisional\nIdr 263k/malam
+</string>
+

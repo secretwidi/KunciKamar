@@ -1,0 +1,38 @@
+<!-- Radience Sunset - Lembongan -->
+<TextView
+android:id="@+id/radience_su"
+android:layout_width="129dp"
+android:layout_height="10dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="20dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="210dp"
+android:text="@string/radience_su"
+android:textAppearance="@style/radience_su"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="radience_su">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="radience_su">
+
+Radience Sunset - Lembongan
+</string>

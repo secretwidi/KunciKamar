@@ -1,0 +1,12 @@
+<!-- Rijasa -->
+<View
+android:id="@+id/rijasa"
+android:layout_width="159dp"
+android:layout_height="136dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="183dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="294dp"
+android:background="@drawable/rijasa"
+ />
+

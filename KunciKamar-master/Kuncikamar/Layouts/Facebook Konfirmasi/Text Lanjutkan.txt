@@ -1,0 +1,38 @@
+<!-- Lanjutkan -->
+<TextView
+android:id="@+id/lanjutkan"
+android:layout_width="72dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="144dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="291dp"
+android:text="@string/lanjutkan"
+android:textAppearance="@style/lanjutkan"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="lanjutkan">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="lanjutkan">
+
+Lanjutkan
+</string>
+

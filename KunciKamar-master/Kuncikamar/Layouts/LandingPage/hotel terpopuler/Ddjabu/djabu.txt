@@ -1,0 +1,11 @@
+<!-- D'djabu -->
+<View
+android:id="@+id/d_djabu"
+android:layout_width="158dp"
+android:layout_height="136dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="294dp"
+android:background="@drawable/d_djabu"
+ />

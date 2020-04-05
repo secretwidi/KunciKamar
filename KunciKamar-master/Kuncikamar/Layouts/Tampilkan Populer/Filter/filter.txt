@@ -1,0 +1,39 @@
+<!-- Filter -->
+<TextView
+android:id="@+id/filter"
+android:layout_width="21dp"
+android:layout_height="10dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="132dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="77dp"
+android:text="@string/filter"
+android:textAppearance="@style/filter"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="filter">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#514F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="filter">
+
+Filter
+</string>
+

@@ -1,0 +1,38 @@
+<!-- Line 3.2 -->
+<View
+android:id="@+id/line_3_2"
+android:layout_width="331.69dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1895dp"
+android:background="@drawable/line_3_2"
+ />
+
+
+<!-- drawable/line_3_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="332.69dp"
+android:height="1dp"
+android:viewportWidth="332.69"
+android:viewportHeight="1"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0.5 0.5H332.188H0.5Z"
+/>
+
+</group>
+
+<path
+android:pathData="M0.5 0.5H332.188H0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#D9D9D9"
+/>
+
+</vector>

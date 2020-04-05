@@ -1,0 +1,11 @@
+<!-- Damai taman -->
+<View
+android:id="@+id/damai_taman"
+android:layout_width="324dp"
+android:layout_height="175dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="128dp"
+android:background="@drawable/damai_taman"
+ />

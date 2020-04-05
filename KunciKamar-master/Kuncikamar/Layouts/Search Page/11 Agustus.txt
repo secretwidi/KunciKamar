@@ -1,0 +1,39 @@
+<!-- 11 Agustus -->
+<TextView
+android:id="@+id/agustus"
+android:layout_width="66.36dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="67dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="433dp"
+android:text="@string/agustus"
+android:textAppearance="@style/agustus"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="agustus">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#868686
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="agustus">
+
+11 Agustus
+</string>
+

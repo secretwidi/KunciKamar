@@ -1,0 +1,11 @@
+<!-- Tombol tampilkan luxe -->
+<View
+android:id="@+id/tombol_tamp"
+android:layout_width="324dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="860dp"
+android:background="@drawable/tombol_tamp"
+ />

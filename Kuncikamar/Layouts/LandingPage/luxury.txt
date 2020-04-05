@@ -1,0 +1,38 @@
+<!-- Luxury Class Penginapan dengan berbagai aspek bintang lima -->
+<TextView
+android:id="@+id/luxury_clas"
+android:layout_width="253dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="656dp"
+android:text="@string/luxury_clas"
+android:textAppearance="@style/luxury_clas"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+-->
+<!-- styles.xml -->
+<style name="luxury_clas">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="luxury_clas">
+
+Luxury Class\nPenginapan dengan berbagai aspek bintang lima
+</string>
+

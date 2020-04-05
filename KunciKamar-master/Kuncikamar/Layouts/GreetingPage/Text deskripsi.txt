@@ -1,0 +1,38 @@
+<!-- Dengan mengetuk opsi Lanjutkan, Buat Akun, atau Lainnya, berarti saya menyetujui Ketentuan Layanan, Ketentuan Layanan Pembayaran, Kebijakan Privasi, dan Kebijakan Non- diskriminasi KunciKamar. -->
+<TextView
+android:id="@+id/dengan_meng"
+android:layout_width="305dp"
+android:layout_height="48dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="406dp"
+android:text="@string/dengan_meng"
+android:textAppearance="@style/dengan_meng"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="dengan_meng">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="dengan_meng">
+
+Dengan mengetuk opsi Lanjutkan, Buat Akun, atau Lainnya, \nberarti saya menyetujui Ketentuan Layanan, Ketentuan \nLayanan Pembayaran, Kebijakan Privasi, dan Kebijakan Non-\ndiskriminasi KunciKamar. 
+</string>
+

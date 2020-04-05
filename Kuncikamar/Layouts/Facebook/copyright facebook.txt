@@ -1,0 +1,39 @@
+<!-- Facebook©2019 -->
+<TextView
+android:id="@+id/facebook_20"
+android:layout_width="72dp"
+android:layout_height="11dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="144dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="502dp"
+android:text="@string/facebook_20"
+android:textAppearance="@style/facebook_20"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 11sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="facebook_20">
+
+<item name="android:textSize">
+9sp
+</item>
+
+<item name="android:textColor">
+#828181
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="facebook_20">
+
+Facebook\u00C2\u00A92019 
+</string>
+

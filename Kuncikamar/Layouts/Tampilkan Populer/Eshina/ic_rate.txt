@@ -1,0 +1,13 @@
+<!-- mdi_star_rate -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/mdi_star_ra"
+android:layout_width="14dp"
+android:layout_height="14dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="43dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="375dp"
+android:clipToOutline="true"
+android:background="#00000000"
+ />

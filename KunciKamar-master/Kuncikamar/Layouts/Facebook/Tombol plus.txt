@@ -1,0 +1,11 @@
+<View
+android:id="@+id/group_4"
+android:layout_width="14dp"
+android:layout_height="14dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="252dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="472dp"
+android:background="@drawable/group_4"
+ />
+

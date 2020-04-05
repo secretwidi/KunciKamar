@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/srch_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_all_top"
+        tools:context=".SearchActivity">
+
+    <LinearLayout
+            android:background="@drawable/rounded_all_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <include
+                android:id="@+id/c_cari"
+                layout="@layout/card_cari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<!-- TANGGAL LAHIR -->
+<TextView
+android:id="@+id/tanggal_lah"
+android:layout_width="101dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="185dp"
+android:text="@string/tanggal_lah"
+android:textAppearance="@style/tanggal_lah"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="tanggal_lah">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tanggal_lah">
+
+TANGGAL LAHIR
+</string>
+

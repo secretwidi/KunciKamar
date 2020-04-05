@@ -1,0 +1,38 @@
+<!-- Saya tidak ingin menerima berita pemasaran dari KunciKamar. Saya bisa memilih untuk tidak menerim pesan sejenis ini kapan saja melalui pengaturan akun saya atau menggunakan tautan didalam pesan. -->
+<TextView
+android:id="@+id/saya_tidak_"
+android:layout_width="269dp"
+android:layout_height="65dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="276dp"
+android:text="@string/saya_tidak_"
+android:textAppearance="@style/saya_tidak_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 13sp
+-->
+<!-- styles.xml -->
+<style name="saya_tidak_">
+
+<item name="android:textSize">
+11sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="saya_tidak_">
+
+Saya tidak ingin menerima berita pemasaran\ndari KunciKamar. Saya bisa memilih untuk tidak\nmenerim pesan sejenis ini kapan saja melalui \npengaturan akun saya atau menggunakan \ntautan didalam pesan.
+</string>
+

@@ -1,0 +1,39 @@
+<!-- Temukan hotel terbaik -->
+<TextView
+android:id="@+id/temukan_hot"
+android:layout_width="138dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="54dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="277dp"
+android:text="@string/temukan_hot"
+android:textAppearance="@style/temukan_hot"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="temukan_hot">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#3DDFFA
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="temukan_hot">
+
+Temukan hotel terbaik
+</string>
+

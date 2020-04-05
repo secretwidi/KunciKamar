@@ -1,0 +1,38 @@
+<!-- Villa Damai Taman -->
+<TextView
+android:id="@+id/villa_damai"
+android:layout_width="177dp"
+android:layout_height="17dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="261dp"
+android:text="@string/villa_damai"
+android:textAppearance="@style/villa_damai"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 22sp
+-->
+<!-- styles.xml -->
+<style name="villa_damai">
+
+<item name="android:textSize">
+18sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="villa_damai">
+
+Villa Damai Taman
+</string>
+

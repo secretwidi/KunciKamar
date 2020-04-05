@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="8dp"
+            android:layout_width="match_parent"
+            android:layout_margin="6dp"
+            android:layout_height="180dp">
+        <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/hotel_pic"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_radiance_sunset"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:id="@+id/hotel_whis_ic"
+                    android:src="@drawable/ic_whislist"
+                    android:tint="@color/White"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="8dp"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"/>
+            <androidx.cardview.widget.CardView
+                    android:layout_below="@id/hotel_pic"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="0dp"
+                    android:layout_marginTop="-80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+                <RelativeLayout
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                            android:id="@+id/hotel_name"
+                            android:textColor="@color/Black"
+                            android:fontFamily="@font/montserratbold"
+                            android:textSize="10sp"
+                            android:text="Radiance Sunset - Lembongan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/hotel_desc"
+                            android:layout_below="@id/hotel_name"
+                            android:layout_marginTop="1dp"
+                            android:textColor="@color/colorPrimaryDarkest"
+                            android:fontFamily="@font/montserratsemibold"
+                            android:textSize="8sp"
+                            android:text="featuring with pool view"
+                            android:layout_width="200dp"
+                            android:layout_height="12dp"/>
+                    <TextView
+                            android:id="@+id/currency"
+                            android:layout_above="@id/hotel_rating"
+                            android:layout_marginBottom="1dp"
+                            android:textColor="@color/colorPrimaryDarkest"
+                            android:fontFamily="@font/montserratsemibold"
+                            android:textSize="8sp"
+                            android:text="Idr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/hotel_price"
+                            android:layout_toRightOf="@id/currency"
+                            android:layout_above="@id/hotel_rating"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginLeft="2dp"
+                            android:textColor="@color/colorPrimaryDarkest"
+                            android:fontFamily="@font/montserratsemibold"
+                            android:textSize="8sp"
+                            android:text="78"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:id="@+id/blabla"
+                            android:layout_toRightOf="@id/hotel_price"
+                            android:layout_above="@id/hotel_rating"
+                            android:layout_marginBottom="1dp"
+                            android:textColor="@color/colorPrimaryDarkest"
+                            android:fontFamily="@font/montserratsemibold"
+                            android:textSize="8sp"
+                            android:text="k/malam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <RatingBar
+                            android:id="@+id/hotel_rating"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/VeryWhite"
+                            style="?attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleX=".8"
+                            android:scaleY=".8"
+                            android:transformPivotX="-2dp"
+                            android:transformPivotY="8dp"
+                            android:isIndicator="true"
+                            android:max="5" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

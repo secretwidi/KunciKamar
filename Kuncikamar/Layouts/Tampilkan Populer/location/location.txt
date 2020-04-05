@@ -1,0 +1,13 @@
+<!-- location -->
+<View
+android:id="@+id/location"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="294dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="504dp"
+android:background="@drawable/location"
+ />
+
+

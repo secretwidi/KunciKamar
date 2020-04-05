@@ -1,0 +1,39 @@
+<!-- Español -->
+<TextView
+android:id="@+id/espa_ol"
+android:layout_width="37dp"
+android:layout_height="11dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="241dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="456dp"
+android:text="@string/espa_ol"
+android:textAppearance="@style/espa_ol"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 11sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="espa_ol">
+
+<item name="android:textSize">
+9sp
+</item>
+
+<item name="android:textColor">
+#828181
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="espa_ol">
+
+Espa\u00C3\u00B1ol
+</string>
+

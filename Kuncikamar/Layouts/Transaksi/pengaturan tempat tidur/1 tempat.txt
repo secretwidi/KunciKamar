@@ -1,0 +1,40 @@
+<!-- 1 tempat tidur king, 1 tempat tidur queen -->
+<TextView
+android:id="@+id/tempat_tidu"
+android:layout_width="173dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="70dp"
+android:text="@string/tempat_tidu"
+android:textAppearance="@style/tempat_tidu"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="tempat_tidu">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#514F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tempat_tidu">
+
+1 tempat tidur king, 1 tempat\ntidur queen
+</string>

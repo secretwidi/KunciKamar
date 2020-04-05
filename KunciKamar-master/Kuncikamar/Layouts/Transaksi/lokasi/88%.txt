@@ -1,0 +1,41 @@
+<!-- 88% tamu baru baru ini memberikan nilai 5 bintang untuk lokasi -->
+<TextView
+android:id="@+id/tamu_baru_b"
+android:layout_width="264dp"
+android:layout_height="40dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="54dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="630dp"
+android:text="@string/tamu_baru_b"
+android:textAppearance="@style/tamu_baru_b"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="tamu_baru_b">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#514F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="tamu_baru_b">
+
+88% tamu baru baru ini memberikan nilai 5 \nbintang untuk lokasi
+</string>
+

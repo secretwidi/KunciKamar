@@ -1,0 +1,38 @@
+<!-- Lupa kata sandi Anda? -->
+<TextView
+android:id="@+id/lupa_kata_s"
+android:layout_width="286dp"
+android:layout_height="29dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="16dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="58dp"
+android:text="@string/lupa_kata_s"
+android:textAppearance="@style/lupa_kata_s"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="lupa_kata_s">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="lupa_kata_s">
+
+Lupa kata sandi Anda?
+</string>
+

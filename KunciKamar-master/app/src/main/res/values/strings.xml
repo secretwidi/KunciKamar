@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">KunciKamar</string>
+    <string name="temukan_hot">Temukan hotel terbaik</string>
+    <string name="kota">Kota</string>
+    <string name="cari_kota">Cari kota...</string>
+    <string name="check_in">Check In</string>
+    <string name="agustus">11 Agustus</string>
+    <string name="cari_hotel">Cari Hotel</string>
+    <string name="_12_agustus">12 Agustus</string>
+    <string name="check_out">Check Out</string>
+    <string name="tamu">Tamu</string>
+    <string name="_5">5</string>
+    <string name="room">Room</string>
+    <string name="_2">2</string>
+    <string name="cari">CARI</string>
+
+</resources>

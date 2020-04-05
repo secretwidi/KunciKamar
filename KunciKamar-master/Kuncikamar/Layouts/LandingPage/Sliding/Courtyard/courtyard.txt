@@ -1,0 +1,12 @@
+<!-- courtyard -->
+<View
+android:id="@+id/courtyard"
+android:layout_width="144dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="176dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="154dp"
+android:background="@drawable/courtyard"
+android:elevation="4dp"
+ />

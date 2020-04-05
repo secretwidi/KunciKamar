@@ -1,0 +1,40 @@
+<!-- Bali Green Surf School Sekolah -->
+<TextView
+android:id="@+id/bali_green_"
+android:layout_width="117dp"
+android:layout_height="36dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="50dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1516dp"
+android:text="@string/bali_green_"
+android:textAppearance="@style/bali_green_"
+android:lineSpacingExtra="6sp"
+android:translationY="-2.9sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 18sp
+  translationY 2.9sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="bali_green_">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#514F4F
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="bali_green_">
+
+Bali Green Surf School\nSekolah
+</string>

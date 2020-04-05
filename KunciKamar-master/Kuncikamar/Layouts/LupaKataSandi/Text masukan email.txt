@@ -1,0 +1,39 @@
+<!-- Masukan email Anda untuk menemukan akun Anda -->
+<TextView
+android:id="@+id/masukan_ema"
+android:layout_width="320dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="95dp"
+android:text="@string/masukan_ema"
+android:textAppearance="@style/masukan_ema"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="masukan_ema">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="masukan_ema">
+
+Masukan email Anda untuk menemukan akun Anda
+</string>
+

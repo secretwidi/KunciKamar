@@ -1,0 +1,39 @@
+!-- Kota -->
+<TextView
+android:id="@+id/kota"
+android:layout_width="34dp"
+android:layout_height="17dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="62dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="318dp"
+android:text="@string/kota"
+android:textAppearance="@style/kota"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 17sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="kota">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#12D8FA
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="kota">
+
+Kota
+</string>
+

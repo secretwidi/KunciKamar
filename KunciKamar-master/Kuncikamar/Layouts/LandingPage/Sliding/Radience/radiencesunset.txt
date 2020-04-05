@@ -1,0 +1,12 @@
+<!-- Radience -->
+<View
+android:id="@+id/radience"
+android:layout_width="144dp"
+android:layout_height="86dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="154dp"
+android:background="@drawable/radience"
+android:elevation="4dp"
+ />

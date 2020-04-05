@@ -1,0 +1,38 @@
+<!-- Isi nama Anda -->
+<TextView
+android:id="@+id/isi_nama_an"
+android:layout_width="180dp"
+android:layout_height="26dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="18dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="70dp"
+android:text="@string/isi_nama_an"
+android:textAppearance="@style/isi_nama_an"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 29sp
+-->
+<!-- styles.xml -->
+<style name="isi_nama_an">
+
+<item name="android:textSize">
+24sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="isi_nama_an">
+
+Isi nama Anda
+</string>
+

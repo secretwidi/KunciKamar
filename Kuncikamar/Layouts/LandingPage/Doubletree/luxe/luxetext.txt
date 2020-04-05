@@ -1,0 +1,41 @@
+<!-- LUXE -->
+<TextView
+android:id="@+id/luxe"
+android:layout_width="17dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="20dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="796dp"
+android:text="@string/luxe"
+android:textAppearance="@style/luxe"
+android:lineSpacingExtra="13sp"
+android:translationY="-6.34sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 6.34sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="luxe">
+
+<item name="android:textSize">
+6sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="luxe">
+
+LUXE
+</string>

@@ -1,0 +1,41 @@
+<!-- Jl. Pangkung Sari, Gg. Catur Kembar no. 8, Seminyak 80361 -->
+<TextView
+android:id="@+id/jl_pangkung"
+android:layout_width="263dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="55dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1407dp"
+android:text="@string/jl_pangkung"
+android:textAppearance="@style/jl_pangkung"
+android:lineSpacingExtra="0sp"
+android:translationY="-0.19sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  translationY 0.19sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="jl_pangkung">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#979696
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="jl_pangkung">
+
+ Jl. Pangkung Sari, Gg. Catur Kembar no. 8, \nSeminyak 80361
+</string>
+

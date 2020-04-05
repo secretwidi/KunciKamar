@@ -1,0 +1,11 @@
+<!-- rating -->
+<View
+android:id="@+id/rating"
+android:layout_width="54.1dp"
+android:layout_height="16dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="64dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="292dp"
+android:background="@drawable/rating"
+ />

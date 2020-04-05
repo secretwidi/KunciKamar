@@ -1,0 +1,39 @@
+<!-- Masuk dengan Facebook -->
+<TextView
+android:id="@+id/masuk_denga"
+android:layout_width="154dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="103dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="13dp"
+android:text="@string/masuk_denga"
+android:textAppearance="@style/masuk_denga"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="masuk_denga">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="masuk_denga">
+
+Masuk dengan Facebook
+</string>
+

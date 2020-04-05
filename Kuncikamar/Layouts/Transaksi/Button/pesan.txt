@@ -1,0 +1,42 @@
+<!-- PESAN -->
+<TextView
+android:id="@+id/pesan"
+android:layout_width="51dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="247dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="566dp"
+android:text="@string/pesan"
+android:textAppearance="@style/pesan"
+android:lineSpacingExtra="3sp"
+android:translationY="-1.47sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 1.47sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="pesan">
+
+<item name="android:textSize">
+14sp
+</item>
+
+<item name="android:textColor">
+#FFFFFF
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="pesan">
+
+PESAN
+</string>
+

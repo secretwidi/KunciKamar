@@ -1,0 +1,39 @@
+<!-- Bahasa Melayu -->
+<TextView
+android:id="@+id/bahasa_mela"
+android:layout_width="70dp"
+android:layout_height="11dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="226dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="442dp"
+android:text="@string/bahasa_mela"
+android:textAppearance="@style/bahasa_mela"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 11sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="bahasa_mela">
+
+<item name="android:textSize">
+9sp
+</item>
+
+<item name="android:textColor">
+#828181
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="bahasa_mela">
+
+Bahasa Melayu
+</string>
+

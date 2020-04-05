@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ebri.kuncikamar">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".TanggalLahirActivity">
+        </activity>
+        <activity android:name=".NewEmailActivity">
+        </activity>
+        <activity android:name=".BuatSandiActivity">
+        </activity>
+        <activity android:name=".TampilkanPopActivity">
+        </activity>
+        <activity android:name=".BuatAkunActivity">
+        </activity>
+        <activity android:name=".FacebookActivity">
+        </activity>
+        <activity android:name=".ForgetActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".FragmentMainActivity">
+        </activity>
+        <activity android:name=".GreetingActivity">
+        </activity>
+        <activity android:name=".LandingActivity">
+        </activity>
+        <activity android:name=".SearchActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

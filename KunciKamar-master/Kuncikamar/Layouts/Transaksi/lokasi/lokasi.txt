@@ -1,0 +1,42 @@
+<!-- Lokasi luar biasa -->
+<TextView
+android:id="@+id/lokasi_luar"
+android:layout_width="105dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="54dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="610dp"
+android:text="@string/lokasi_luar"
+android:textAppearance="@style/lokasi_luar"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="lokasi_luar">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="lokasi_luar">
+
+Lokasi luar biasa
+</string>
+

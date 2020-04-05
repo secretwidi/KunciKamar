@@ -1,0 +1,42 @@
+<!-- SELENGKAPNYA DIPETA -->
+<TextView
+android:id="@+id/selengkapny"
+android:layout_width="150dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="105dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="1708dp"
+android:text="@string/selengkapny"
+android:textAppearance="@style/selengkapny"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="selengkapny">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#BFE241
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="selengkapny">
+
+SELENGKAPNYA DIPETA
+</string>
+

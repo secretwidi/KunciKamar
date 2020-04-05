@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="all">
+        <item
+                android:id="@+id/nav_landing"
+                android:title=""
+                android:icon="@drawable/ic_home"/>
+        <item
+                android:id="@+id/nav_whislist"
+                android:title=""
+                android:icon="@drawable/ic_whislist"/>
+        <item
+                android:id="@+id/nav_transaction"
+                android:title=""
+                android:icon="@drawable/ic_transaction"/>
+        <item
+                android:id="@+id/nav_inbox"
+                android:title=""
+                android:icon="@drawable/ic_inbox"/>
+        <item
+                android:id="@+id/nav_profile"
+                android:title=""
+                android:icon="@drawable/ic_profile"/>
+    </group>
+</menu>

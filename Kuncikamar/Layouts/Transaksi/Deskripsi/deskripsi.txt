@@ -1,0 +1,42 @@
+<!-- Deskripsi -->
+<TextView
+android:id="@+id/deskripsi"
+android:layout_width="59dp"
+android:layout_height="20dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="704dp"
+android:text="@string/deskripsi"
+android:textAppearance="@style/deskripsi"
+android:lineSpacingExtra="5sp"
+android:translationY="-2.69sp"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 20sp
+  (identical to box height)
+  translationY 2.69sp compensates for the line height adjustment of text
+-->
+<!-- styles.xml -->
+<style name="deskripsi">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#000000
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="deskripsi">
+
+Deskripsi 
+</string>
+

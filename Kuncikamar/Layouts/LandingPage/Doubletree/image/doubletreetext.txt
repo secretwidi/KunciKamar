@@ -1,0 +1,38 @@
+<!-- DoubleTree by Hilton • Asia's Leading City Resort Idr 3800k/malam -->
+<TextView
+android:id="@+id/doubletree_"
+android:layout_width="173dp"
+android:layout_height="28dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="17dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="812dp"
+android:text="@string/doubletree_"
+android:textAppearance="@style/doubletree_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+-->
+<!-- styles.xml -->
+<style name="doubletree_">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="doubletree_">
+
+DoubleTree by Hilton \u00E2\u0080\u00A2  Asia\'s Leading City Resort \nIdr 3800k/malam
+</string>
+

@@ -1,0 +1,11 @@
+<!-- Fourseasons -->
+<View
+android:id="@+id/fourseasons"
+android:layout_width="198dp"
+android:layout_height="132dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="228dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="708dp"
+android:background="@drawable/fourseasons"
+ />

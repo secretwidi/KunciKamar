@@ -1,0 +1,38 @@
+<!-- Cari kota... -->
+<TextView
+android:id="@+id/cari_kota_"
+android:layout_width="63dp"
+android:layout_height="15dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="67dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="353dp"
+android:text="@string/cari_kota_"
+android:textAppearance="@style/cari_kota_"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 15sp
+  (identical to box height)
+-->
+<!-- styles.xml -->
+<style name="cari_kota_">
+
+<item name="android:textSize">
+12sp
+</item>
+
+<item name="android:textColor">
+#868686
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="cari_kota_">
+
+Cari kota...
+</string>

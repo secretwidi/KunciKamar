@@ -1,0 +1,38 @@
+<!-- RENAISSANCE RESORT - ULUWATU With an outdoor swimming pool and a fitness centre Idr 500k/malam -->
+<TextView
+android:id="@+id/renaissance"
+android:layout_width="153dp"
+android:layout_height="39dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="186dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="525dp"
+android:text="@string/renaissance"
+android:textAppearance="@style/renaissance"
+android:gravity="top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 10sp
+-->
+<!-- styles.xml -->
+<style name="renaissance">
+
+<item name="android:textSize">
+8sp
+</item>
+
+<item name="android:textColor">
+#181818
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="renaissance">
+
+RENAISSANCE RESORT - ULUWATU\nWith an outdoor swimming pool and \na fitness centre\nIdr 500k/malam
+</string>
+

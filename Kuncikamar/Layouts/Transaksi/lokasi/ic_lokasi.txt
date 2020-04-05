@@ -1,0 +1,37 @@
+<!-- Vector -->
+<View
+android:id="@+id/vector"
+android:layout_width="0dp"
+android:layout_height="0dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentRight="true"
+android:layout_alignParentTop="true"
+android:layout_alignParentBottom="true"
+android:background="@drawable/vector"
+ />
+
+
+<!-- drawable/vector.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="14dp"
+android:height="20dp"
+android:viewportWidth="14"
+android:viewportHeight="20"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H14V20H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V20H14V0"
+android:fillColor="#000000"
+/>
+
+</group>
+
+</vector>

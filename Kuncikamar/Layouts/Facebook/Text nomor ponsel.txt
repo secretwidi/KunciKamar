@@ -1,0 +1,38 @@
+<!-- Nomor ponsel atau email -->
+<TextView
+android:id="@+id/nomor_ponse"
+android:layout_width="129dp"
+android:layout_height="12dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="33dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="202dp"
+android:text="@string/nomor_ponse"
+android:textAppearance="@style/nomor_ponse"
+android:gravity="center_horizontal|top"
+ />
+
+<!--
+  Font family: Montserrat
+  Line height: 12sp
+-->
+<!-- styles.xml -->
+<style name="nomor_ponse">
+
+<item name="android:textSize">
+10sp
+</item>
+
+<item name="android:textColor">
+#C3C3C3
+</item>
+
+</style>
+
+
+<!-- strings.xml -->
+<string name="nomor_ponse">
+
+Nomor ponsel atau email
+</string>
+

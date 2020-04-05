@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B3DA61</color>
+    <color name="colorPrimarySemi">#B0D959</color>
+    <color name="colorPrimarySemiDK">#719A1A</color>
+    <color name="colorAccent">#9ed50a</color>
+    <color name="colorPrimaryDark">#eaeaea</color>
+    <color name="colorPrimaryDarker">#ACACAC</color>
+    <color name="colorPrimaryDarkest">#636363</color>
+    <color name="colorDarkFX">#774E4C4C</color>
+    <color name="colorTransparant">#004E4C4C</color>
+    <color name="colorDarkerFX">#6F000000</color>
+    <color name="Black">#000</color>
+    <color name="White">#f9f9f9</color>
+    <color name="VeryWhite">#FFF</color>
+</resources>

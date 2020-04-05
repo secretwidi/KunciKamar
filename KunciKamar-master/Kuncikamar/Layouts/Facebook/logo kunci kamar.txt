@@ -1,0 +1,32 @@
+<!-- logo_kunci_kamar -->
+<View
+android:id="@+id/logo_kunci_"
+android:layout_width="150dp"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="105dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="90dp"
+android:background="@drawable/logo_kunci_"
+ />
+
+
+<!-- drawable/logo_kunci_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="150dp"
+android:height="30dp"
+android:viewportWidth="150"
+android:viewportHeight="30"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H150V30H0V0Z"
+/>
+
+</group>
+
+</vector>
